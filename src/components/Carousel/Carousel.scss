@@ -34,18 +34,18 @@
 .Button {
   cursor: pointer;
 
-  &--Prev {
+  &--prev {
     position: relative;
 
     &::before{
-      content:"../../public/icons/prev";
+      content: url("../../../icons/prev.png");
       display: block;
 
     }
   }
-  &--Next {
+  &--next {
     &::before{
-      content:"../../public/icons/next";
+      content: url("../../../icons/next.png");
       display: block;
 
     }
